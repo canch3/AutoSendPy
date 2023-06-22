@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" src="styles.css" type="text/css">
+      <title>Tu sitio web</title>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Formulario de contacto</h1>
+        <form id="contact-form">
+          <div class="input-field">
+            <input type="tel" id="phone" name="phone" required>
+            <label for="phone">Número de teléfono</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="datepicker" id="date" name="date">
+            <label for="date">Fecha</label>
+          </div>
+          <div class="input-field">
+            <input type="text" class="timepicker" id="time" name="time">
+            <label for="time">Hora</label>
+          </div>
+          <div class="input-field">
+            <textarea id="message" class="materialize-textarea" name="message" required></textarea>
+            <label for="message">Mensaje</label>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+        </form>
+      </div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="js.js"></script>
+
+      
+    </body>
+    </html>
+    
