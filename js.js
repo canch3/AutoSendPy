@@ -1,3 +1,25 @@
+function alerta(){
+  let phone = "0"
+  let date = "0"
+  let time = "0"
+  let message = "0"
+
+  phone = document.getElementById('phone').value;
+  date = document.getElementById('date').value;
+  time = document.getElementById('time').value;
+  message = document.getElementById('message').value;
+  
+  console.log(phone)
+  console.log(date)
+  console.log(time)
+  console.log(message)
+
+  
+  alert("done")
+  
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.datepicker');
     var instances = M.Datepicker.init(elems, {
@@ -32,3 +54,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('time').value = '';
     document.getElementById('message').value = '';
   };
+
+  function captureText(){
+    const phone = getElementById("phone").innerHTML;
+    const date = getElementById("date").innerHTML;
+    const time = getElementById("time").innerHTML;
+    const message = getElementById("message").innerHTML;
+  }
+
+  
